@@ -4,6 +4,13 @@ Python implementation of the PageRank algorithm, inspired by the paper **"The $2
 
 📄 **Original paper:** [SIAM Review (2006)](https://www.rose-hulman.edu/~bryan/googleFinalVersionFixed.pdf)
 
+## Authors
+
+| Name | Student ID | Email |
+|------|------------|-------|
+| Stefano Falcione | s352590 | s352590@studenti.polito.it |
+| Paolo Malugani | s359857 | s359857@studenti.polito.it |
+
 ## Overview
 
 This project explores the linear algebra behind Google's PageRank algorithm, implementing the power method to compute the dominant eigenvector of a stochastic matrix. PageRank assigns an importance score to each web page based on the link structure.
@@ -15,7 +22,6 @@ This project explores the linear algebra behind Google's PageRank algorithm, imp
 ├── pagerank.ipynb       # Notebook with detailed analysis and visualizations
 ├── exercises.ipynb      # Solved exercises from the paper (Ex. 1-16)
 ├── ex1.ipynb            # Exercise 1 with plots
-├── README.md
 └── data/
     ├── hollins.dat      # Hollins University dataset (6012 pages, 23875 links)
     ├── ex1.dat
