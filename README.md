@@ -15,6 +15,7 @@ This project explores the linear algebra behind Google's PageRank algorithm, imp
 ├── pagerank.ipynb       # Notebook with detailed analysis and visualizations
 ├── exercises.ipynb      # Solved exercises from the paper (Ex. 1-16)
 ├── ex1.ipynb            # Exercise 1 with plots
+├── README.md
 └── data/
     ├── hollins.dat      # Hollins University dataset (6012 pages, 23875 links)
     ├── ex1.dat
