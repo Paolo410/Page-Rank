@@ -72,7 +72,7 @@ def show_ranking(normalized, page_names, top_n_pages):
 
 def main():
     file_names = ["hollins.dat", "ex1.dat", "ex2.dat"]
-    file = open(file_names[0], "r")
+    file = open("./data/"+file_names[0], "r")
     pagerank(file=file)
     file.close()
 
